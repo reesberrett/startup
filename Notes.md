@@ -48,12 +48,12 @@ tr | table row
 ol/ul | ordered/unordered list
 a | anchor text with link
 img | graphical image reference
-&amp | &
-&lt | <
-&gt | >
-&quot | "
-&apos | ' 
-&#128512 | 😃
+&amp | & symbol
+&lt | < symbol
+&gt | > symbol
+&quot | " symbol
+&apos | ' symbol
+&#128512 | 😃 emoji
 
 ## CSS
 
