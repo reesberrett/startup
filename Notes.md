@@ -8,9 +8,9 @@
 ---
 ## HTML
 
-tags have opening and closing tab
-lang = "en" in html tag sets language to english
-title tag is name of the tab and not header
+tags have opening and closing tab  
+lang = "en" in html tag sets language to english  
+title tag is name of the tab and not header  
 
 ---
 ## CSS
