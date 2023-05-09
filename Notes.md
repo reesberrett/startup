@@ -20,8 +20,9 @@ absolute: link to external site
 ```
     
 relative: link to another page/image on the same site  
-> <a href = "index"  
-  
+```
+<a href = "index">  
+```  
 
 ## CSS
 
