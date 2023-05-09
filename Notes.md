@@ -7,7 +7,7 @@
 >   
 > subdomains: [simon.reesberrett.org](simon.reesberrett.org), [startup.reesberrett.org](startup.reesberrett.org) 
   
-## HTML
+## **HTML**
 
 tags have opening and closing tab  
 lang = "en" in html tag sets language to english  
