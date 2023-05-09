@@ -56,7 +56,7 @@ img | graphical image reference
 &apos | ' symbol
 &#128512 | 😃 emoji
   
-## Input Elements
+### Input Elements
 
 
 ## CSS
