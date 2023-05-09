@@ -27,7 +27,7 @@ relative: link to another page/image on the same site
 <a href = "index.html">  
 ```  
 
-| element | meaning |
+| element | meaning |  
 | html | page conatiner |  
 |head| header info|  
 title title of the page
