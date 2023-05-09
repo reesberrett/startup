@@ -15,7 +15,7 @@ title tag is name of the tab and not header
 link references: 
   
 absolute: link to external site  
-> <a href = "reesberrett.org"  
+> <a href = "reesberrett.org">  
     
 relative: link to another page/image on the same site  
 > <a href = "index">  
