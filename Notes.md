@@ -54,8 +54,8 @@ img | graphical image reference
 &quot | " symbol
 &apos | ' symbol
 &#128512 | 😃 emoji
-  
-### Input Elements  
+
+### Input Elements
 element | meaning
 ------- | -------
 
