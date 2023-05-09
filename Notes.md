@@ -1,13 +1,14 @@
 # Notes
 
 ## HTTP/HTTPS
+
 > IP: [3.23.81.92](3.23.81.92)  
 >  
 > address: [reesberrett.org](reesberrett.org)  
 >   
 > subdomains: [simon.reesberrett.org](simon.reesberrett.org), [startup.reesberrett.org](startup.reesberrett.org) 
   
-## **HTML**
+## HTML
 
 tags have opening and closing tab  
 lang = "en" in html tag sets language to english  
@@ -24,7 +25,9 @@ relative: link to another page/image on the same site
 ```
 <a href = "index.html">  
 ```
-### Basic elements
+
+### *Basic elements*
+
 element | meaning 
 ------- | -------
 html | page conatiner
@@ -54,10 +57,12 @@ img | graphical image reference
 &#128512 | 😃 emoji
 
 ### Input Elements
+
 element | meaning
 ------- | -------
 
 ### Media elements
+
 element | meaning
 ------- | -------
 
