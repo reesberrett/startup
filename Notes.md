@@ -41,7 +41,7 @@ footer | footer of the main content
 section | a section of the main content
 div | a division of content
 span | an inline span of content
-h<1-9> | text heading, h1 is highest
+h1-h9 | text heading, h1 is highest
 p | paragraph of text
 table | table
 th | table header, first row of table
