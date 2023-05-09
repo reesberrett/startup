@@ -16,6 +16,7 @@ link references:
   
 absolute: link to external site  
 > <a href = "reesberrett.org"  
+    
 relative: link to another page/image on the same site  
 > <a href = "index">  
 
