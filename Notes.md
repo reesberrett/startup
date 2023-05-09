@@ -1,20 +1,20 @@
 # Notes
 
-HTTP/HTTPS
+## HTTP/HTTPS
 
-IP: 3.23.81.92
-address: reesberrett.org
-subdomains: simon.reesberrett.org, startup.reesberrett.org
+> IP: 3.23.81.92
+> address: reesberrett.org
+> subdomains: simon.reesberrett.org, startup.reesberrett.org
 
-HTML
+## HTML
 
 tags have opening and closing tab
 lang = "en" in html tag sets language to english
 title tag is name of the tab and not header
 
 
-CSS
+## CSS
 
-JavaScript
+## JavaScript
 
-Misc
+## Misc
