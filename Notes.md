@@ -29,7 +29,7 @@ relative: link to another page/image on the same site
 
 | element | meaning |  
 | ------- | ------- |
-| html | page conatiner |  
+| html | page conatiner
 | head | header info |  
 | title | title of the page |  
 | body | content of the page |  
