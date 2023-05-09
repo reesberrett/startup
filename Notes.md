@@ -4,7 +4,7 @@
 
 > **IP: 3.23.81.92  
 > address: [reesberrett.org](reesberrett.org)  
-> subdomains: [simon.reesberrett.org]simon.reesberrett.org, [startup.reesberrett.org]startup.reesberrett.org**  
+> subdomains: [simon.reesberrett.org](simon.reesberrett.org), [startup.reesberrett.org](startup.reesberrett.org)**  
 ---
 ## HTML
 
