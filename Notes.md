@@ -26,7 +26,7 @@ relative: link to another page/image on the same site
 <a href = "index.html">  
 ```
 
-### *Basic elements
+### *Basic elements*
 
 element | meaning 
 ------- | -------
@@ -56,12 +56,12 @@ img | graphical image reference
 &apos | ' symbol
 &#128512 | 😃 emoji
 
-### *Input Elements
+### *Input Elements*
 
 element | meaning
 ------- | -------
 
-### Media elements
+### *Media elements*
 
 element | meaning
 ------- | -------
