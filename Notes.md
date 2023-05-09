@@ -31,21 +31,25 @@ relative: link to another page/image on the same site
 | ------- | ------- |
 | html | page conatiner |  
 | head | header info |  
-  
-title title of the page
-body content of the page
-header header content
-main main content of the page
-footer footer of the main content
-section a section of the main content
-div a division of content
-span an inline span of content
-h<1-9> text heading. h1 is highest
-p paragraph of text
-table table
-ol/ul ordered/unordered list
-a anchor text with link
-img graphical image reference
+| title | title of the page |  
+| body | content of the page |  
+| header header content |  
+| main | main content of the page |  
+| footer | footer of the main content |  
+|section| a section of the main content|  
+| div a division of content
+| span an inline span of content
+| h<1-9> text heading. h1 is highest
+| p paragraph of text
+| table table
+| ol/ul ordered/unordered list
+| a anchor text with link
+| img graphical image reference
+| &amp &
+| &lt <
+| &gt >
+| &quot "
+| &apos '
 
 ## CSS
 
