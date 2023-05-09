@@ -7,7 +7,6 @@
 >   
 > subdomains: [simon.reesberrett.org](simon.reesberrett.org), [startup.reesberrett.org](startup.reesberrett.org) 
   
-
 ## HTML
 
 tags have opening and closing tab  
