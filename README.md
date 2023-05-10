@@ -6,12 +6,14 @@ For a long time, I've played Ultimate Frisbee. Whenever I tell people I play Ult
 ## Applying concepts
 - **HTML** - 5 HTML pages, one for login, four for displaying website content
 - **CSS** - applying style that looks good and adapts to different screen sizes
-- **JavaScript** - using for code for login, voting, and for retreiving weather data
+- **JavaScript** - using for code for login, "likes", and for retreiving weather data
 - **Service** - backend service with endpoints for
--- login
-- **DB**
-- **Login** - registering and 
-- **WebSocket**
-- **React**
+  -login
+   -retrieving and submiting "likes"
+   -retreiving data about weather
+- **DB** - stores user data and "likes" in a database
+- **Login** - registers and logs in users and storres their credentials in database
+- **WebSocket** - each user's "like" is visible to others
+- **React** - application ported to use React framework
 
 my sketches can be found [here](https://github.com/reesberrett/startup/files/11438421/startup_sketches.pdf) or in my startup repository
