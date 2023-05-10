@@ -16,4 +16,6 @@ For a long time, I've played Ultimate Frisbee. Whenever I tell people I play Ult
 - **WebSocket** - each user's "like" is visible to others
 - **React** - application ported to use React framework
 
+---
+
 my sketches can be found [here](https://github.com/reesberrett/startup/files/11438421/startup_sketches.pdf) or in my startup repository
