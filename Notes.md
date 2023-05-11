@@ -91,13 +91,14 @@ Inline styles take precedance over external stylesheets
 Attribute | Meaning | Example
 --------- | ------- | -------
 color     | text color | color: rgb(0, 0, 0);
-background-color | background color
-font-size | font size
-font-family | type of font
-font-weight | font boldness
-text-align | alignment of text
-padding | idk
-transform | applies transformation to selector
+background-color | background color | background-color: #ffffff;
+font-size | font size | font-size: 3rem;
+font-family | type of font | font-family: serif;
+font-weight | font boldness | font-weight: bold;
+text-align | alignment of text | text-align: center;
+padding | space from selected content to other content | padding: 10px;
+margin | space from selected content to page borders | margin: 10px;
+transform | applies transformation to selector | transform: rotate(90)
 
 font-size measurements:
 - px: pixels
