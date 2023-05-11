@@ -1,4 +1,4 @@
-# Notes
+# CS260 Notes
 
 ## HTTP/HTTPS
 
@@ -107,6 +107,17 @@ font-size measurements:
 - px: pixels
 - em: size relevant to letter m in used font
 - rem: size relevant to entire document
+
+You can select by ID
+```
+#IDhere {
+  color: blue
+ }
+ ```
+ and set the ID to an HTML tag
+ ```
+ <p id = "IDhere">text</p>
+ ```
 
 ## JavaScript
 
