@@ -16,8 +16,8 @@ Format: Tags have opening and closing tab
 ```
 <p>Text here</p>
 ```
-Lang = "en" in html tag sets language to english  
-Title tag is name of the tab and not header  
+*lang = "en"* in html tag sets language to english  
+&lt;title&gt; tag is name of the tab and not header  
   
 Link references: 
   
@@ -168,6 +168,7 @@ Other declarations
 ### Animation
 
 Use the @keyframes selector to set attributes during certain times of animation  
+  
 Example to animate size of text
 ```
 p {
@@ -189,6 +190,13 @@ p {
   }
 }
 ```
+You can use the *animation* attribute instead of *animation-name/duration*
+```
+p {
+  animation: demo 3s infinite;
+}
+```
+Using the *infinite* descriptor makes the animation last indefinitely  
 
 
 ## JavaScript
