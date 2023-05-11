@@ -69,7 +69,10 @@ element | meaning
 ## CSS
 
 all about styling website  
-
+can use css delarations in html tags  
+```
+<p style="color:red">CSS</p>
+```
 
 ## JavaScript
 
