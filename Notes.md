@@ -94,8 +94,15 @@ color     | text color
 background-color | background color
 font-size | font size
 font-family | type of font
+font-weight | font boldness
 text-align | alignment of text
+padding | idk
+transform | applies transformation to selector
 
+font-size measurements:
+- px: pixels
+- em: size relevant to letter m in used font
+- rem: size relevant to entire document
 
 ## JavaScript
 
