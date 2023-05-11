@@ -16,7 +16,7 @@ Format: Tags have opening and closing tab
 ```
 <p>Text here</p>
 ```
-*lang = "en"* in <html> tag sets language to english  
+*lang = "en"* in &lt;html&gt; tag sets language to english  
 &lt;title&gt; tag is name of the tab and not header  
   
 Link references: 
