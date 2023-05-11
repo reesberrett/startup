@@ -146,7 +146,7 @@ Other declarations
 - space
   - second tag has to be descendant of first tag
   - ex: body section
-- &gt
+- \g
   - second tag has to be **direct** descendant of first tag
   - ex: section > p
 - :
