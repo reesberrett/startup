@@ -10,7 +10,7 @@
   
 ## HTML
 
-**Basic structure of websites**
+**Basic structure of websites**  
 Tags have opening and closing tab  
 ```
 <p>Text here</p>
