@@ -207,6 +207,11 @@ Using the *infinite* descriptor makes the animation last indefinitely
 - flex: displays element in flex container
 - grid: diaplays element as part of grid at certain row and column
 grid and flex are best for responsive design  
+  
+This allows you to change page orientation and use flex:
+```
+<meta name = "viewport" content = "width = device-width, initial-scale = 1"/>
+``` 
 
 
 
