@@ -82,6 +82,7 @@ Format: Assigning attributes within a specified tag (p, div, a, etc)
 ```
 p {
   color: red;
+  font-size: 500px;
 }
 ```
 You can use this inside html style tags or in an external CSS sheet  
