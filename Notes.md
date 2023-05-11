@@ -11,6 +11,9 @@
 ## HTML
 
 tags have opening and closing tab  
+```
+<p>Text here</p>
+```
 lang = "en" in html tag sets language to english  
 title tag is name of the tab and not header  
   
@@ -72,6 +75,12 @@ all about styling website
 can use css delarations in html tags (called inline style)  
 ```
 <p style="color:red; font-size:500px">CSS</p>
+```
+format:
+```
+p {
+  color:red;
+}
 ```
 
 ## JavaScript
