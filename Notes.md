@@ -10,28 +10,28 @@
   
 ## HTML
 
-tags have opening and closing tab  
+Tags have opening and closing tab  
 ```
 <p>Text here</p>
 ```
-lang = "en" in html tag sets language to english  
-title tag is name of the tab and not header  
+Lang = "en" in html tag sets language to english  
+Title tag is name of the tab and not header  
   
-link references: 
+Link references: 
   
-absolute: link to external site  
+Absolute: link to external site  
 ```
 <a href = "reesberrett.org">  
 ```
     
-relative: link to another page/image on the same site  
+Relative: link to another page/image on the same site  
 ```
 <a href = "index.html">  
 ```
 
 ### *Basic elements*
 
-element | meaning 
+Element | Meaning 
 ------- | -------
 html | page conatiner
 head | header info 
@@ -71,17 +71,19 @@ element | meaning
 
 ## CSS
 
-all about styling website  
-can use css delarations in html tags (called inline style)  
+All about styling website  
+Different browers have default CSS applied to each page that can be disabled
+Can use css delarations in html tags (called inline style)  
 ```
 <p style="color:red; font-size:500px">CSS</p>
 ```
-format:
+Format: assigning attributes within a specified tag
 ```
 p {
   color:red;
 }
 ```
+You can use this inside html style tags or in an external CSS sheet
 
 ## JavaScript
 
