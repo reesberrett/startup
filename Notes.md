@@ -118,7 +118,8 @@ and set the ID to an HTML tag
 ```
 <p id = "IDhere">text</p>
 ```
-And classes
+IDs are only meant to be used to one HTML tag  
+You can also select by class
 ```
 .classhere {
   color: blue
