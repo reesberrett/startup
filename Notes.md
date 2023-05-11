@@ -118,7 +118,7 @@ and set the ID to an HTML tag
 ```
 <p id = "IDhere">text</p>
 ```
-IDs are only meant to be used to one HTML tag  
+**IDs are only meant to be used to one HTML tag**  
 You can also select by class
 ```
 .classhere {
@@ -129,6 +129,14 @@ and set the class to an HTML tag
 ```
 <p class = "classhere">text</p>
 ```
+Classes can be used on multiple tags
+You can selsct certain children of a class:
+```
+p.classhere {
+  color: yellow
+}
+```
+and it will only apply to given tag with given class  
 
 ## JavaScript
 
