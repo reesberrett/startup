@@ -36,7 +36,9 @@ Element | Meaning
 ------- | -------
 html | page conatiner
 head | header info 
-title | title of the page
+meta | info for browser
+link | link something useful for your code like a stylesheet
+title | title of the page, displays on tab
 body | content of the page
 header | header content
 nav | content for navigation bar
@@ -98,7 +100,7 @@ font-weight | font boldness | font-weight: bold;
 text-align | alignment of text | text-align: center;
 padding | space from selected content to other content | padding: 10px;
 margin | space from selected content to page borders | margin: 10px;
-transform | applies transformation to selector | transform: rotate(90)
+transform | applies transformation to selector | transform: rotate(90deg)
 
 font-size measurements:
 - px: pixels
