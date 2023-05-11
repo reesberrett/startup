@@ -152,6 +152,9 @@ Other declarations
 - :
   - based on certain state
   - ex: p:hover
+- ~
+  - tags have to be siblings
+  - ex: section ~ p {% raw %}
 
 ## JavaScript
 
