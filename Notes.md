@@ -198,6 +198,17 @@ p {
 ```
 Using the *infinite* descriptor makes the animation last indefinitely  
 
+### Response
+
+*display* attribute types:
+- none: element removed, shrinks to 0x0px grid
+- block: takes up whole width of page
+- inline: displays element inline with other elements
+- flex: displays element in flex container
+- grid: diaplays element as part of grid at certain row and column
+grid and flex are best for responsive design  
+
+
 
 ## JavaScript
 
