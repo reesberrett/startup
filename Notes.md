@@ -10,6 +10,7 @@
   
 ## HTML
 
+**Basic structure of websites**
 Tags have opening and closing tab  
 ```
 <p>Text here</p>
@@ -71,7 +72,7 @@ element | meaning
 
 ## CSS
 
-All about styling website  
+**All about styling websites**  
 Different browers have default CSS applied to each page that can be disabled
 Can use css delarations in html tags (called inline style)  
 ```
