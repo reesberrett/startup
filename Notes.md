@@ -98,15 +98,24 @@ background-color | background color | background-color: #ffffff;
 font-size | font size | font-size: 3rem;
 font-family | type of font | font-family: serif;
 font-weight | font boldness | font-weight: bold;
-text-align | alignment of text | text-align: center;
-padding | space from selected content to other content | padding: 10px;
-margin | space from selected content to page borders | margin: 10px;
-transform | applies transformation to selector | transform: rotate(90deg)
+text-align | alignment of element | text-align: center;
+padding | space from element to other content | padding: 10px;
+margin | space from element to page borders | margin: 10px;
+transform | applies transformation to element | transform: rotate(90deg)
+border | sets border of element | border: red solid medium
+display | defines how to display element | display: none;
 
 font-size measurements:
 - px: pixels
 - em: size relevant to letter m in used font
 - rem: size relevant to entire document
+- %: percentage of parent element
+- vw: percentage of viewport's width
+- vh: percentage of viewport's height
+- vmin: percentage of viewports's smaller dimension
+- vmax: percentage of viewpoint's larger dimension
+
+### Selecting
 
 You can select by ID
 ```
@@ -142,19 +151,45 @@ and it will only apply to given tag with given class
 Other declarations
 - , 
   - any given selectors
-  - ex: body, section
+  - body, section{}
 - space
   - second tag has to be descendant of first tag
-  - ex: body section
+  - body section{}
 - &gt;
   - second tag has to be **direct** descendant of first tag
-  - ex: section > p
+  - section > p{}
 - :
   - based on certain state
-  - ex: p:hover
+  - p:hover{}
 - ~
   - tags have to be siblings
-  - ex: section ~ p {}
+  - section ~ p{}
+
+### Animation
+
+Use the @keyframes selector to set attributes during certain times of animation  
+Example to animate size of text
+```
+p {
+  animation-name: demo;
+  animation-duration: 3s;
+}
+
+@keyframes demo {
+  from {
+    font-size: 0vh;
+  }
+  
+  95% {
+    font-size: 21vh;
+  }
+  
+  to {
+    font-size: 20vh;
+  }
+}
+```
+
 
 ## JavaScript
 
