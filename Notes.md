@@ -11,7 +11,7 @@
 ## HTML
 
 **Basic structure of websites**  
-Tags have opening and closing tab  
+Format: Tags have opening and closing tab  
 ```
 <p>Text here</p>
 ```
@@ -73,12 +73,12 @@ element | meaning
 ## CSS
 
 **All about styling websites**  
-Different browers have default CSS applied to each page that can be disabled
+Different browers have default CSS applied to each page that can be disabled  
 Can use css delarations in html tags (called inline style)  
 ```
 <p style="color:red; font-size:500px">CSS</p>
 ```
-Format: assigning attributes within a specified tag
+Format: Assigning attributes within a specified tag
 ```
 p {
   color:red;
