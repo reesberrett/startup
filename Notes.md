@@ -62,12 +62,12 @@ img | graphical image reference
 
 ### *Input Elements*
 
-element | meaning
+Element | Meaning
 ------- | -------
 
 ### *Media elements*
 
-element | meaning
+Element | Meaning
 ------- | -------
 
 ## CSS
@@ -84,7 +84,17 @@ p {
   color:red;
 }
 ```
-You can use this inside html style tags or in an external CSS sheet
+You can use this inside html style tags or in an external CSS sheet  
+Inline styles take precedance over external stylesheets  
+
+Attribute | Meaning
+--------- | -------
+color     | text color
+background-color | background color
+font-size | font size
+font-family | type of font
+text-align | alignment of text
+
 
 ## JavaScript
 
