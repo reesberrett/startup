@@ -138,6 +138,20 @@ p.classhere {
 }
 ```
 and it will only apply to given tag with given class  
+  
+Other declarations
+- , 
+  - any given selectors
+  - ex: body, section
+- space
+  - second tag has to be descendant of first tag
+  - ex: body section
+- >
+ - second tag has to be **direct** descendant of first tag
+ - ex: section > p
+- :
+  - based on certain state
+  - ex: p:hover
 
 ## JavaScript
 
