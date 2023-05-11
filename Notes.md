@@ -154,7 +154,7 @@ Other declarations
   - ex: p:hover
 - ~
   - tags have to be siblings
-  - ex: section ~ p {% raw %}
+  - ex: section ~ p {}
 
 ## JavaScript
 
