@@ -112,12 +112,22 @@ You can select by ID
 ```
 #IDhere {
   color: blue
- }
- ```
- and set the ID to an HTML tag
- ```
- <p id = "IDhere">text</p>
- ```
+}
+```
+and set the ID to an HTML tag
+```
+<p id = "IDhere">text</p>
+```
+And classes
+```
+.classhere {
+  color: blue
+}
+```
+and set the class to an HTML tag
+```
+<p class = "classhere">text</p>
+```
 
 ## JavaScript
 
