@@ -69,9 +69,9 @@ element | meaning
 ## CSS
 
 all about styling website  
-can use css delarations in html tags  
+can use css delarations in html tags (called inline style)  
 ```
-<p style="color:red">CSS</p>
+<p style="color:red; font-size:500px">CSS</p>
 ```
 
 ## JavaScript
