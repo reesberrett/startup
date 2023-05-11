@@ -76,12 +76,12 @@ Element | Meaning
 Different browers have default CSS applied to each page that can be disabled  
 Can use css delarations in html tags (called inline style)  
 ```
-<p style="color:red; font-size:500px">CSS</p>
+<p style = "color: red; font-size: 500px">CSS</p>
 ```
-Format: Assigning attributes within a specified tag
+Format: Assigning attributes within a specified tag (p, div, a, etc)
 ```
 p {
-  color:red;
+  color: red;
 }
 ```
 You can use this inside html style tags or in an external CSS sheet  
