@@ -88,9 +88,9 @@ p {
 You can use this inside html style tags or in an external CSS sheet  
 Inline styles take precedance over external stylesheets  
 
-Attribute | Meaning
---------- | -------
-color     | text color
+Attribute | Meaning | Example
+--------- | ------- | -------
+color     | text color | color: rgb(0, 0, 0);
 background-color | background color
 font-size | font size
 font-family | type of font
