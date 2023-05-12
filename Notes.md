@@ -116,13 +116,8 @@ font-size measurements:
 - vmax: percentage of viewpoint's larger dimension
 
 CSS Content Map:  
-![CSS content map](https://github.com/reesberrett/startup/assets/97056541/e82a318a-cf1b-4cd8-8a4f-410facfb76e7 | width=100)
-
-![CSS content map2](https://github.com/reesberrett/startup/assets/97056541/2b8fcc01-4bd0-4a1a-9cc5-88d1067310c8)
 
 <img src="[https://github.com/reesberrett/startup/assets/97056541/e82a318a-cf1b-4cd8-8a4f-410facfb76e7](https://github.com/reesberrett/startup/assets/97056541/2b8fcc01-4bd0-4a1a-9cc5-88d1067310c8)" alt="Content->Padding->Border->Margin" width="500px" height="500px"/>
-
-<img src="https://github.com/reesberrett/startup/assets/97056541/e82a318a-cf1b-4cd8-8a4f-410facfb76e7" alt="Content->Padding->Border->Margin" width="500px" height="500px"/>
 
 
 ### Selecting
