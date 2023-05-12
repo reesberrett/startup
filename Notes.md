@@ -118,6 +118,8 @@ font-size measurements:
 CSS Content Map:  
 ![CSS content map](https://github.com/reesberrett/startup/assets/97056541/e82a318a-cf1b-4cd8-8a4f-410facfb76e7 | width=100)
 
+<img src="https://github.com/reesberrett/startup/assets/97056541/e82a318a-cf1b-4cd8-8a4f-410facfb76e7" alt="Content->Padding->Border->Margin" width="200px"/>
+
 
 ### Selecting
 
