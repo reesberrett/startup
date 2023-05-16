@@ -218,20 +218,24 @@ This allows you to change page orientation and use flex:
 
 ## JavaScript
 
-Javascript needs interpreter to convert code  
+JavaScript needs interpreter to convert code  
 Examples: Chrome, other browsers, Node.js, etc  
   
-Javascript can be displayed in html tags in some attributes
+JavaScript can be displayed in html tags in some attributes
 ```
 <button onclick="sayHello()">Say Hello</button>
 ```
-You can define javascript in the *script* HTML tag
+You can define JavaScript in the *script* HTML tag
 ```
 <script>
   function sayHello(){
     console.log('hello');
   }
 </script>
+```
+Or you can link an external JavaScript file
+```
+<script src="script.js"></script>
 ```
   
 ### Arrays
