@@ -218,6 +218,19 @@ This allows you to change page orientation and use flex:
 
 ## JavaScript
 
+Javascript needs interpreter to convert code  
+Examples: Chrome, other browsers, Node.js, etc  
+  
+### Arrays
 
+forEach() function iterates through arrray
+```
+const words = ['hello', 'world'];
+
+words.forEach((word => {
+  console.log(word);
+  console.log(' ');
+});
+```
 
 ## Misc
