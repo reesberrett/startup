@@ -256,4 +256,25 @@ words.forEach((word => {
 Use === instead of ==  
 == converts types to satisfy the equality, always use ===
 
+## Arrow Functions
+
+```
+function f(){
+  return 1;
+}
+```
+is the same as 
+```
+const f = () => 1;
+```
+^ This arrow function doesn't use curly braces so it implicitly returns 1  
+This arrow function would not return anything
+```
+const f = (a) => {
+  a;
+};
+```
+and would need a return statement to return a
+ 
+
 ## Misc
