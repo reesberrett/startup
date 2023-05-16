@@ -221,6 +221,19 @@ This allows you to change page orientation and use flex:
 Javascript needs interpreter to convert code  
 Examples: Chrome, other browsers, Node.js, etc  
   
+Javascript can be displayed in html tags in some attributes
+```
+<button onclick="sayHello()">Say Hello</button>
+```
+You can define javascript in the *script* HTML tag
+```
+<script>
+  function sayHello(){
+    console.log('hello');
+  }
+</script>
+```
+  
 ### Arrays
 
 forEach() function iterates through arrray
@@ -232,7 +245,8 @@ words.forEach((word => {
   console.log(' ');
 });
 ```
-> hello world 
+> Output: hello world 
+
 
 
 ## Misc
