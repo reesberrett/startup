@@ -268,6 +268,7 @@ is the same as
 const f = () => 1;
 ```
 ^ This arrow function doesn't use curly braces so it implicitly returns 1  
+  
 This arrow function would not return anything
 ```
 const f = (a) => {
