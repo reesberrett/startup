@@ -251,6 +251,9 @@ words.forEach((word => {
 ```
 > Output: hello world 
 
+### Equality
 
+Use === instead of ==  
+== converts types to satisfy the equality, always use ===
 
 ## Misc
