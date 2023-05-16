@@ -216,8 +216,8 @@ This allows you to change page orientation and use flex:
 <meta name = "viewport" content = "width = device-width, initial-scale = 1"/>
 ``` 
 
-
-
 ## JavaScript
+
+
 
 ## Misc
