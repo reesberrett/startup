@@ -253,8 +253,8 @@ words.forEach((word => {
 
 ### Equality
 
-Use === instead of ==  
-== converts types to satisfy the equality, always use ===
+Use "===" instead of "=="  
+"==" converts types to satisfy the equality, always use "==="
 
 ## Arrow Functions
 
@@ -275,7 +275,8 @@ const f = (a) => {
   a;
 };
 ```
-and would need a return statement to return a
+and would need a return statement to return anything
+
  
 
 ## Misc
