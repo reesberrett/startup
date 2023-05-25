@@ -295,7 +295,7 @@ and would need a return statement to return a
   - Primary color gets main focus, then secondary
   - Cater to user accesibility (colorblindness)
   - [Adobe Color Picker](color.adobe.com)
-  - [palleton Color Picker](paletton.com)
+  - [Palleton Color Picker](paletton.com)
 - Think about letter/word spacings, serifs, etc
 - The less fonts (and colors), the better
 - Pick 4 different font sizes to use for your site (generally)
@@ -304,7 +304,16 @@ and would need a return statement to return a
 - Space around text is easier on the eyes
 - User feedback: have icons/links react when they're clicked or hovered over
 - **Hick's Law: The time necessary to make a decision increases logarithmically with the number of choices presented**  
-- Present complex decisions one step at a time
+  - Present complex decisions one step at a time
 - **Load Time Matters!**
-- 
+
+### Web Services
+
+JavaScript *fetch* function acts as a google search and returns html pages  
+This webpage data can be stored in an object by using JSON
+```
+fetch('https://api.chucknorris.io/jokes/random?category=dev')
+  .then(r => r.json())
+  .then(j => console.log(j.value))
+```
 
