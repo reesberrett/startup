@@ -240,7 +240,7 @@ Or you can link an external JavaScript file
   
 ### Arrays
 
-forEach() function iterates through arrray
+*forEach()* function iterates through arrray
 ```
 const words = ['hello', 'world'];
 
@@ -309,11 +309,20 @@ and would need a return statement to return a
 
 ### Web Services
 
-JavaScript *fetch* function acts as a google search and returns html pages  
+JavaScript *fetch()* function acts as a google search and returns html pages  
 This webpage data can be stored in an object by using JSON
 ```
 fetch('https://api.chucknorris.io/jokes/random?category=dev')
   .then(r => r.json())
   .then(j => console.log(j.value))
 ```
+
+**URL Components**
+> https://cs260.click:443/api/city?q=pro#3
+- *https://* -> scheme
+- *cs260.click* -> domain
+- *:443* -> port
+- */api.city* -> path
+- *?q=pro* -> parmeters
+- *#3* -> anchor
 
