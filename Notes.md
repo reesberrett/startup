@@ -286,5 +286,11 @@ and would need a return statement to return a
 - **Don't make the user think**  
 - **Think about how the user would experience the website through every step**  
 - Don't overcrowd your website  
-- **Never have your interface have more than one job to be done**  
+  - **Never have your interface have more than one job to be done**  
 - Be consistent with things like nav bar, main content, footer, etc  
+- Use a UI Framework(Bootstrap, Tailwind, etc)
+- **Make sure the user always knows where they are**
+  - Breadcrumbs, nav bars, browser controls, anticipate common paths
+- Use one primary color and one secondary color
+  - Primary color gets main focus, then secondary
+  - Cater to user accesibility(colorblindness)
