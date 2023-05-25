@@ -318,6 +318,7 @@ fetch('https://api.chucknorris.io/jokes/random?category=dev')
 ```
 **Port Types**  
 Port | Protocol
+---- | --------
 20 | File transfer protocol (FTP) for data transfer
 22 | Secure Shell (SSH) for connecting to remote devices
 25 | Simple Mail Transfer Protocol (SMTP) for sending email
