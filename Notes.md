@@ -306,7 +306,8 @@ and would need a return statement to return a
 - **Hick's Law: The time necessary to make a decision increases logarithmically with the number of choices presented**  
   - Present complex decisions one step at a time
 - **Load Time Matters!**
-
+  
+  
 ### Web Services
 
 JavaScript *fetch()* function acts as a google search and returns html pages  
