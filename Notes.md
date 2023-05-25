@@ -284,13 +284,27 @@ and would need a return statement to return a
 ### UX Design
 
 - **Don't make the user think**  
-- **Think about how the user would experience the website through every step**  
+  - **Think about how the user would experience the website through every step**  
 - Don't overcrowd your website  
   - **Never have your interface have more than one job to be done**  
 - Be consistent with things like nav bar, main content, footer, etc  
-- Use a UI Framework(Bootstrap, Tailwind, etc)
+- Use a UI Framework (Bootstrap, Tailwind, etc)
 - **Make sure the user always knows where they are**
   - Breadcrumbs, nav bars, browser controls, anticipate common paths
 - Use one primary color and one secondary color
   - Primary color gets main focus, then secondary
-  - Cater to user accesibility(colorblindness)
+  - Cater to user accesibility (colorblindness)
+  - [color.adobe.com](Adobe Color Picker)
+  - [paletton.com](Paletton Color Picker)
+- Think about letter/word spacings, serifs, etc
+- The less fonts (and colors), the better
+- Pick 4 different font sizes to use for your site (generally)
+- Use standard icons
+  - 3 lines for menu, magnifying glass for search, etc
+- Space around text is easier on the eyes
+- User feedback: have icons/links react when they're clicked or hovered over
+- **Hick's Law: The time necessary to make a decision increases logarithmically with the number of choices presented**  
+- Present complex decisions one step at a time
+- **Load Time Matters!**
+- 
+
