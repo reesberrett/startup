@@ -294,8 +294,8 @@ and would need a return statement to return a
 - Use one primary color and one secondary color
   - Primary color gets main focus, then secondary
   - Cater to user accesibility (colorblindness)
-  - [color.adobe.com](Adobe Color Picker)
-  - [paletton.com](Paletton Color Picker)
+  - [Adobe Color Picker](color.adobe.com)
+  - [palleton Color Picker](paletton.com)
 - Think about letter/word spacings, serifs, etc
 - The less fonts (and colors), the better
 - Pick 4 different font sizes to use for your site (generally)
