@@ -316,7 +316,7 @@ fetch('https://api.chucknorris.io/jokes/random?category=dev')
   .then(r => r.json())
   .then(j => console.log(j.value))
 ```
-**Port Types**
+**Port Types**  
 Port | Protocol
 20 | File transfer protocol (FTP) for data transfer
 22 | Secure Shell (SSH) for connecting to remote devices
