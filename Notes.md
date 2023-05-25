@@ -256,7 +256,7 @@ words.forEach((word => {
 Use "===" instead of "=="  
 "==" converts types to satisfy the equality, always use "==="
 
-## Arrow Functions
+### Arrow Functions
 
 ```
 function f(){
@@ -280,3 +280,10 @@ and would need a return statement to return anything
  
 
 ## Misc
+
+### UX Design
+
+**Don't make the user think 
+Think about how the user would experience the website through every step**  
+
+
