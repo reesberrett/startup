@@ -316,6 +316,15 @@ fetch('https://api.chucknorris.io/jokes/random?category=dev')
   .then(r => r.json())
   .then(j => console.log(j.value))
 ```
+**Port Types**
+Port | Protocol
+20 | File transfer protocol (FTP) for data transfer
+22 | Secure Shell (SSH) for connecting to remote devices
+25 | Simple Mail Transfer Protocol (SMTP) for sending email
+53 | Domain Name System (DNS) for looking up IP addresses
+80 | Hypertext Transfer Protocol (HTTP) for web requests
+123 | Network Time protocol (NTP) for managing time
+443 | HTTP Secure (HTTPS) for secure web requests
 
 **URL Components**
 > https://cs260.click:443/api/city?q=pro#3
