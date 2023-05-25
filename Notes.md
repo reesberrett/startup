@@ -275,7 +275,7 @@ const f = (a) => {
   a;
 };
 ```
-and would need a return statement to return anything
+and would need a return statement to return a
 
  
 
@@ -285,5 +285,10 @@ and would need a return statement to return anything
 
 **Don't make the user think  
 Think about how the user would experience the website through every step**  
+
+Don't overcrowd your website  
+**Never have your interface have more than one job to be done**  
+
+Be consistent with things like nav bar, main content, footer, etc  
 
 
