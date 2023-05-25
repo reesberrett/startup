@@ -283,7 +283,7 @@ and would need a return statement to return anything
 
 ### UX Design
 
-**Don't make the user think 
+**Don't make the user think  
 Think about how the user would experience the website through every step**  
 
 
