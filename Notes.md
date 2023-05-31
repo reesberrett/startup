@@ -338,10 +338,9 @@ Port | Protocol
 - *?q=pro* -> parmeters
 - *#3* -> anchor
 
-### Back-end Service
+### CORS
 
-**CORS**
-Cross origin resource sharing  
+Cross Origin Resource Sharing  
 Determines what domain requests the website can accept  
 Meant to protect websites from being targeted by scam websites while still allowing traffic from necessary sites  
   
@@ -363,3 +362,18 @@ or
 ```
 Access-Control-Allow-Origin: *
 ```
+
+### Node.js
+
+
+
+
+
+
+
+
+
+
+
+
+
