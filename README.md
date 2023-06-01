@@ -26,5 +26,6 @@ For this deliverable, I added:
 - One login page (with input field for name and password) and four informational pages with various aspects of Ultimate Frisbee
 - A navigation bar with links to each page (except login)
 - Some relevant images
-- Placeholders for weather retrieval and the ability to "like" different Ultimate players
 - Placeholder quote for what will be a randomly selected quote that changes when a user revisits the page
+- Service/Data retrieval: Placeholders for weather retrieval and the ability to "like" different Ultimate players
+- Websocket: placeholder for amount of "likes" each player has (number next to like button)
