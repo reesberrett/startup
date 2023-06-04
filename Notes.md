@@ -311,7 +311,7 @@ and would need a return statement to return a
 ### Web Services
 
 JavaScript *fetch()* function acts as a google search and returns html pages  
-This webpage data can be stored in an object by using JSON
+This webpage data can be stored in an object by using JSON (or as raw HTML)
 ```
 fetch('https://api.chucknorris.io/jokes/random?category=dev')
   .then(r => r.json())
@@ -337,4 +337,43 @@ Port | Protocol
 - */api.city* -> path
 - *?q=pro* -> parmeters
 - *#3* -> anchor
+
+### CORS
+
+Cross Origin Resource Sharing  
+Determines what domain requests the website can accept  
+Meant to protect websites from being targeted by scam websites while still allowing traffic from necessary sites  
+  
+Request
+```
+Host: cs260.click
+Origin: https://hacker.click
+```
+Reject Resonse
+```
+Access-Control-Allow-origin: https://cs260.click
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE
+```
+Allow Response
+```
+Access-Control-Allow-Origin: https://hacker.click
+```
+or
+```
+Access-Control-Allow-Origin: *
+```
+
+### Node.js
+
+
+
+
+
+
+
+
+
+
+
+
 

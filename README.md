@@ -16,6 +16,16 @@ For a long time, I've played Ultimate Frisbee. Whenever I tell people I play Ult
 - **WebSocket** - each user's "like" is visible to others
 - **React** - application ported to use React framework
 
+my sketches can be found [here](https://github.com/reesberrett/startup/files/11438421/startup_sketches.pdf) or in my startup repository
+
 ---
 
-my sketches can be found [here](https://github.com/reesberrett/startup/files/11438421/startup_sketches.pdf) or in my startup repository
+# HTML Deliverable
+
+For this deliverable, I added:
+- One login page (with input field for name and password) and four informational pages with various aspects of Ultimate Frisbee
+- A navigation bar with links to each page (except login)
+- Some relevant images
+- Placeholder quote for what will be a randomly selected quote that changes when a user revisits the page
+- Service/Data retrieval: Placeholders for weather retrieval and the ability to "like" different Ultimate players
+- Websocket: placeholder for amount of "likes" each player has (number next to like button)
