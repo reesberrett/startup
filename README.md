@@ -29,3 +29,19 @@ For this deliverable, I added:
 - Placeholder quote for what will be a randomly selected quote that changes when a user revisits the page
 - Service/Data retrieval: Placeholders for weather retrieval and the ability to "like" different Ultimate players
 - Websocket: placeholder for amount of "likes" each player has (number next to like button)
+
+---
+
+# CSS Deliverable
+
+For this deliverable, I added:
+- CSS styling for all my pages
+- Consistent fonts and color schemes
+- Imported Bootstrap content
+- Added more navigation and a footer for each page, except the login
+- Animation for the title of each page
+- Responsive pages that adapt to portrait orientation
+
+---
+
+
