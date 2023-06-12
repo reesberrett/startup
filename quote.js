@@ -15,7 +15,7 @@ function selectQuote() {
         quoteText.innerHTML = `<div id="quote">"Being good at school is like being good at Frisbee. It's nice, but it's not relevant"</div> <br> - Seth Godin`;
         break;
       case 3:
-        quoteText.innerHTML = `<div id="quote">"I used to play ultimate Frisbee, and I just got a reputation for making popcorn at parties. I don’t mean to brag on myself, but I make the popcorn in the pot, and it comes out fine every time."</div> <br> - Bill Nye`;
+        quoteText.innerHTML = `<div id="quote">"I used to play Ultimate Frisbee, and I just got a reputation for making popcorn at parties. I don’t mean to brag on myself, but I make the popcorn in the pot, and it comes out fine every time."</div> <br> - Bill Nye`;
         break;
     }
 }
