@@ -139,6 +139,12 @@ ul {
     background-color: #a35653;
     border: 1px solid #a35653;
 }
+
+.custom-button:disabled {
+    color: #8f8f8f;
+    background-color: #520000;
+    border: 1px solid #520000;
+}
   
 .like-content {
     text-align: center;
@@ -194,6 +200,10 @@ footer {
 @media (orientation: portrait) {
     #title-img {
       display: none;
+    }
+
+    #field-img {
+        display: none;
     }
   
     main>p {
