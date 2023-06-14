@@ -1,129 +1,122 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <title>Players</title>
+  <head>
+    <title>Players</title>
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-  <link href="https://getbootstrap.com/docs/5.1/assets/css/docs.css" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/5.1/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
 
-<body>
-  <h1 class="zoom-in">Ultimate Players</h1>
-  <nav>
-    <hr>
-    <a href="home.html">Home</a> /
-    <a href="rules.html">Rules</a> /
-    <a href="violations.html">Violations</a> /
-    <a href="players.html">Players</a>
-    <hr>
-  </nav>
-  <main>
-  <!--Placeholder for weather content-->
-    <div class="weather-container">
-      <div class="weather-card">
-        <img id="weather-image" alt="Image 2">
-        <div class="weather-content">
-          <h2>Weather in Provo</h2>
-          <p>Temperature: <span id="temp"></span></p>
-          <p>Sky: <span id="sky"></span></p>
-          <p>Wind Speed: <span id="wind"></span> &#127787;</p>
+  <body>
+    <h1 class="zoom-in">Ultimate Players</h1>
+    <nav>
+      <hr>
+      <a href="home.html">Home</a> /
+      <a href="rules.html">Rules</a> /
+      <a href="violations.html">Violations</a> /
+      <a href="players.html">Players</a>
+      <hr>
+    </nav>
+
+    <main>
+  
+      <div class="weather-container">
+        <div class="weather-card">
+          <img id="weather-image" alt="Image 2">
+          <div class="weather-content">
+            <h2>Weather in Provo</h2>
+            <p>Temperature: <span id="temp"></span></p>
+            <p>Sky: <span id="sky"></span></p>
+            <p>Wind Speed: <span id="wind"></span> &#127787;</p>
+          </div>
         </div>
       </div>
-    </div>
 
-  <p>
-    Here are some famous Ultimate players!
-  </p>
+      <p>Here are some famous Ultimate players!</p>
 
-  <!--Like buttons and like counts are placeholders-->
-  <table>
-    <tr>
-      <th>Player</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <td><strong>Beau Kittredge</strong></td>
-      <td>Beau Kittredge is widely regarded as one of the greatest ultimate frisbee players of all time. He has won
-        multiple championships and MVP awards throughout his career. Kittredge is known for his exceptional athleticism,
-        speed, and incredible catches.</td>
-      <td class="like-content">
-        <button class="btn btn-primary custom-button" id="bk-button" onclick="increaseCount('bk-button', 'bk-num')">
-          Like
-        </button>
-        Likes: <span id="bk-num">0</span>
-      </td>
-    </tr>
-    <tr>
-      <td><strong>Sandy Jorgensen</strong></td>
-      <td>Sandy Jorgensen is a highly skilled female ultimate frisbee player. She's been a dominant force and led her
-        teams to numerous victories. Jorgensen is known for her agility, throwing accuracy, and strategic gameplay.</td>
-      <td class="like-content">
-        <button class="btn btn-primary custom-button" id="sj-button" onclick="increaseCount('sj-button', 'sj-num')">
-          Like
-        </button>
-        Likes: <span id="sj-num">0</span>
-      </td>
-    </tr>
-    <tr>
-      <td><strong>Jimmy Mickle</strong></td>
-      <td>Jimmy Mickle is known for his exceptional skill as both a thrower and catcher. He's represented the United
-        States in international competitions and has been a key player for his team. Mickle's height, speed, and disc
-        control make him a formidable opponent.</td>
-      <td class="like-content">
-        <button class="btn btn-primary custom-button" id="jm-button" onclick="increaseCount('jm-button', 'jm-num')">
-          Like
-        </button>
-        Likes: <span id="jm-num">0</span>
-      </td>
-    </tr>
-    <tr>
-      <td><strong>Sarah Griffith</strong></td>
-      <td>Sarah Griffith is an accomplished ultimate frisbee player and a strong advocate for gender equity in the
-        sport. She has been an inspiration to many young athletes. Griffith is known for her versatility, leadership
-        skills, and making clutch plays.</td>
-      <td class="like-content">
-        <button class="btn btn-primary custom-button" id="sg-button" 
-onclick="increaseCount('sg-button', 'sg-num')">
-          Like
-        </button>
-        Likes: <span id="sg-num">0</span>
-      </td>
-    </tr>
-    <tr>
-      <td><strong>Kurt Gibson</strong></td>
-      <td>Kurt Gibson is a versatile player known for his athleticism and versatility. He's been a standout performer in
-        both offense and defense positions. Gibson's agility, throwing precision, and game intelligence have earned him
-        massive recognition throughout his career.</td>
-      <td class="like-content">
-        <button class="btn btn-primary custom-button" id="kg-button" onclick="increaseCount('kg-button', 'kg-num')">
-          Like
-        </button>
-        Likes: <span id="kg-num">0</span>      
-      </td>
-    </tr>
-  </table>
-  </main>
+      <table>
+        <tr>
+          <th>Player</th>
+          <th>Description</th>
+        </tr>
 
-  <hr>
+        <tr>
+          <td><strong>Beau Kittredge</strong></td>
+          <td>Beau Kittredge is widely regarded as one of the greatest ultimate frisbee players of all time. He has won multiple championships and MVP awards throughout his career. Kittredge is known for his exceptional athleticism, speed, and incredible catches.</td>
+          <td class="like-content">
+            <button class="btn btn-primary custom-button" id="bk-button" onclick="increaseCount('bk-button', 'bk-num')">
+              Like
+            </button>
+            Likes: <span id="bk-num">0</span>
+          </td>
+        </tr>
 
-  <footer>
-    <div class="footer-content">
-      Made by Rees Berrett
-    </div>
+        <tr>
+          <td><strong>Sandy Jorgensen</strong></td>
+          <td>Sandy Jorgensen is a highly skilled female ultimate frisbee player. She's been a dominant force and led her teams to numerous victories. Jorgensen is known for her agility, throwing accuracy, and strategic gameplay.</td>
+          <td class="like-content">
+            <button class="btn btn-primary custom-button" id="sj-button" onclick="increaseCount('sj-button', 'sj-num')">
+              Like
+            </button>
+            Likes: <span id="sj-num">0</span>
+          </td>
+        </tr>
 
-    <div class="footer-content">
-      <a href="mailto: rees@berrett.org">Email Rees Berrett</a>
-    </div>
+        <tr>
+          <td><strong>Jimmy Mickle</strong></td>
+          <td>Jimmy Mickle is known for his exceptional skill as both a thrower and catcher. He's represented the United States in international competitions and has been a key player for his team. Mickle's height, speed, and disc control make him a formidable opponent.</td>
+          <td class="like-content">
+            <button class="btn btn-primary custom-button" id="jm-button" onclick="increaseCount('jm-button', 'jm-num')">
+              Like
+            </button>
+            Likes: <span id="jm-num">0</span>
+          </td>
+        </tr>
 
-    <div class="footer-content">
-      <a href="https://github.com/reesberrett/startup">Github</a>
-    </div>
-  </footer>
-  <script src="weather.js" onload="getWeather()"></script>
-  <script src="like.js" defer></script>
-</body>
+        <tr>
+          <td><strong>Sarah Griffith</strong></td>
+          <td>Sarah Griffith is an accomplished ultimate frisbee player and a strong advocate for gender equity in the sport. She has been an inspiration to many young athletes. Griffith is known for her versatility, leadership skills, and making clutch plays.</td>
+          <td class="like-content">
+            <button class="btn btn-primary custom-button" id="sg-button" onclick="increaseCount('sg-button', 'sg-num')">
+              Like
+            </button>
+            Likes: <span id="sg-num">0</span>
+          </td>
+        </tr>
+
+        <tr>
+          <td><strong>Kurt Gibson</strong></td>
+          <td>Kurt Gibson is a versatile player known for his athleticism and versatility. He's been a standout performer in both offense and defense positions. Gibson's agility, throwing precision, and game intelligence have earned him massive recognition throughout his career.</td>
+          <td class="like-content">
+            <button class="btn btn-primary custom-button" id="kg-button" onclick="increaseCount('kg-button', 'kg-num')">
+              Like
+            </button>
+            Likes: <span id="kg-num">0</span>      
+          </td>
+        </tr>
+      </table>
+    </main>
+
+    <hr>
+
+    <footer>
+      <div class="footer-content">
+        Made by Rees Berrett
+      </div>
+
+      <div class="footer-content">
+        <a href="mailto: rees@berrett.org">Email Rees Berrett</a>
+      </div>
+
+      <div class="footer-content">
+        <a href="https://github.com/reesberrett/startup">Github</a>
+      </div>
+    </footer>
+    
+    <script src="weather.js" onload="getWeather()"></script>
+    <script src="like.js" defer></script>
+  </body>
 
 </html>
