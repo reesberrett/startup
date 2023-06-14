@@ -51,9 +51,9 @@ nav a:hover {
     align-items: center;
 }
   
-.weather-image {
+#weather-image {
     width: 150px;
-    height: 248px;
+    height: 249px;
     margin-right: 30px;
     border-radius: 4px;
     object-fit: cover;
@@ -81,8 +81,8 @@ p {
 }
   
 #quote, b {
-    color: darkred;
-}
+    color: #8b0000;
+  }
   
 #container {
     display: flex;
@@ -131,7 +131,7 @@ ul {
   
 .custom-button {
     background-color: #8b0000;
-    color: #fff;
+    color: #ffffff;
     border: 1px solid black;
 }
   
@@ -139,7 +139,7 @@ ul {
     background-color: #a35653;
     border: 1px solid #a35653;
 }
-
+  
 .custom-button:disabled {
     color: #8f8f8f;
     background-color: #520000;
@@ -201,12 +201,16 @@ footer {
     #title-img {
       display: none;
     }
-
-    #field-img {
-        display: none;
-    }
   
     main>p {
       display: none;
     }
+}
+  
+#hot {
+    color: red;
+}
+  
+#cold {
+    color: blue;
 }
