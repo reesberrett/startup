@@ -44,4 +44,15 @@ For this deliverable, I added:
 
 ---
 
+# JS Deliverable
+
+For this deliverable, I added:
+- Function that retrieves weather data using an API key and displays it differently depending on temperature and sky
+- Function that increases like count when like button is pressed, and stores the like count in local storage
+- Function that randomly displays a quote about Ultimate each time the page is loaded
+
+---
+
+
+
 
