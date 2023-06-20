@@ -53,6 +53,10 @@ For this deliverable, I added:
 
 ---
 
+# Service Deliverable
+
+For this deliverable, all I had time to do was the function that calls third party endpoints from a weather website :persevere:
+
 
 
 
